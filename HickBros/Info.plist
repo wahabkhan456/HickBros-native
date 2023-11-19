@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>This will allow you to take photos and submit them into the app.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>HickBros requires access to the microphone.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This will allow you to select photos and submit them into the app.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Poppins-Black_0.ttf</string>
+		<string>Poppins-BlackItalic_0.ttf</string>
+		<string>Poppins-Bold_0.ttf</string>
+		<string>Poppins-BoldItalic_0.ttf</string>
+		<string>Poppins-ExtraBold_0.ttf</string>
+		<string>Poppins-ExtraBoldItalic_0.ttf</string>
+		<string>Poppins-ExtraLight_0.ttf</string>
+		<string>Poppins-ExtraLightItalic_0.ttf</string>
+		<string>Poppins-Italic_0.ttf</string>
+		<string>Poppins-Light_0.ttf</string>
+		<string>Poppins-LightItalic_0.ttf</string>
+		<string>Poppins-Medium_0.ttf</string>
+		<string>Poppins-MediumItalic_0.ttf</string>
+		<string>Poppins-Regular_0.ttf</string>
+		<string>Poppins-SemiBold_0.ttf</string>
+		<string>Poppins-SemiBoldItalic_0.ttf</string>
+		<string>Poppins-Thin_0.ttf</string>
+		<string>Poppins-ThinItalic_0.ttf</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>SplashScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDefault</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
